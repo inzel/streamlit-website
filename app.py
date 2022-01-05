@@ -31,11 +31,15 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Colin :wave:")
-    st.title("Currently A Network Engineer But Learning To Be A Data Scientist From The United States")
+    st.title("I am a network engineer, cyber security enthusiast, and a python developer just starting to dabble in streamlit")
     st.write(
         "I am passionate about finding ways to use Python to be more efficient and effective in network and data settings."
+        "I have been learning about streamlit from a gentlemen from Germany named Sven"
+        "I highly recommend taking a look at this website and youtube channels as he has excellent content!"
+        "I will add further content here in the very near future to highlight my projects and what I have been up to"
     )
-    #st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[Sven's Website >](https://pythonandvba.com)")
+    st.write("[Sven's YouTube Channel >](https://youtube.com/c/CodingIsFun)")
 
 # ---- WHAT I DO ----
 with st.container():
